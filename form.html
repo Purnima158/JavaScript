@@ -1,0 +1,19 @@
+<html>
+   <head>
+      <script>
+	        function display()
+			{
+			var name=document.getElementById("name").value;
+			var password=document.getElementById("password").value;
+			document.write(name+","+password);
+			}
+	  </script>
+   </head>
+     <body>
+	    <form onSubmit="display()">
+		Enter Name:<input type="text" id="name"></br>
+		Enter Password:<input type="password" id="password"></br>
+		<input type="submit" value="submit"></br>
+		</form>
+	 </body>
+</html>
