@@ -1,16 +1,9 @@
- #box{
-    height: 200px;
-    width: 100px;
-    border: 1px solid black;
-    margin:5px;
-    text-align:left;
-    background-color: rgb(43, 226, 192);
+h1{
+    color:paleturquoise;
+    background-color: blueviolet;
+    text-align: center;
+    text-decoration: dotted;
 }
-
-.content {
-    color:red;
-}
-
-.newClass{
-    background-color: green;
+body{
+    background-color:gray;
 }
